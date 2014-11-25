@@ -4,8 +4,8 @@ Bundler.require
 
 
 # require'sinatra'
-require_relative './app.rb'
+require_relative './app_heroku.rb'
 
-run MimicServer
+run HerokuServer
 
 # run Sinatra::Application
